@@ -10,7 +10,7 @@ module.exports = {
     },
     output:{
         path: path.resolve(__dirname,'build'),
-        filename:'[name].[chunkhash].js'
+        filename:'js/[name].[chunkhash].js'
     },
     module:{
         rules:[
@@ -27,8 +27,8 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             template:'public/index.html',
-            filename:'public/index.html'
+            //filename:'public/index.html'
         }),
-        new CleanWebpackPlugin('build/*.*')
+       // new CleanWebpackPlugin('build/*.*')
     ]
 }
