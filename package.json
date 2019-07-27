@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"webpack",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "BA",
@@ -17,5 +17,9 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1"
   }
 }
